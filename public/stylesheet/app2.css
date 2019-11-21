@@ -1,0 +1,799 @@
+/*Images for individual pages*/
+
+#landingPage {
+	background-color: #000;
+}
+
+#indexPage {
+	background: url("https://cdn.vox-cdn.com/thumbor/Dc8bBshDmxtKUCeTFovjt_pz_bM=/0x0:1777x999/1200x800/filters:focal(708x235:992x519)/cdn.vox-cdn.com/uploads/chorus_image/image/63756879/parabellumcover.0.jpg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#showPage {
+	background: url("https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1558,w_2770,x_229,y_0/dpr_1.5/c_limit,w_1600/fl_lossy,q_auto/v1568730193/190917-downton-abbey-tease_xkdtxg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#editPage {
+	background: url("https://pmcvariety.files.wordpress.com/2019/07/tdfvfx-101-1.jpg?w=1000")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#newReviewPage {
+	background: url("https://cdn.onebauer.media/one/media/5da7/1293/df6b/3b34/bac7/a5a1/zombieland-double-tap.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#newCommentPage {
+	background: url("https://boygeniusreport.files.wordpress.com/2019/03/avengers-endgame-sign-2.jpg?quality=98&strip=all")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#editCommentPage {
+	background: url("https://musicart.xboxlive.com/6/cf2b967c-0000-0000-0000-000000000009/504/image.jpg?w=1920&h=1080")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#registerPage {
+	background: url("https://cdn.vox-cdn.com/thumbor/ELMX0q_yU7xXqeZtuaLW1EqYHAY=/0x0:1500x1000/1200x800/filters:focal(899x293:1139x533)/cdn.vox-cdn.com/uploads/chorus_image/image/65274066/MV5BZjZkNTJhZTctMzVjYi00NDVhLWE5NzYtYzlhMzZjMTI1NTljXkEyXkFqcGdeQXVyMTkxNjUyNQ__._V1_SY1000_SX1500_AL_.0.jpg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#profilePage {
+	background: url("https://www.stylist.co.uk/images/app/uploads/2019/05/14112607/maleficent2-crop-1557829579-1600x838.jpg?w=1680&h=880&fit=max&auto=format%2Ccompress")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+#editProfilePage {
+	background: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2019/10/The-Addams-Family-2019-Movie-Review.jpg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+.loginPage {
+	background: url("http://forgetoday.com/wp-content/uploads/2019/07/toy-story-4.jpg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+.forgotPasswordPage {
+	background:
+	url("https://themaindamie.files.wordpress.com/2018/06/landthattimeforgotposter.jpg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+.resetPasswordPage {
+	background:
+	url("https://s.studiobinder.com/wp-content/uploads/2018/07/Script-Notes-Back-to-the-Future-Header-StudioBinder.jpg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+.faqPage {
+   background: url("https://cdn.onebauer.media/one/media/5dce/ce36/90a4/16b7/bcc0/c3c3/charlies-angels-2019.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg")
+	no-repeat center center fixed;
+  	background-size: cover;
+}
+
+/*Nav Bar*/
+.navbar { 
+	font-family: Srisakdi;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.nav-item {
+   white-space:nowrap
+}
+
+.nav-link {
+	color: #001a66 !important;
+}
+
+.nav-link:hover {
+	color: cyan !important;
+} 
+
+.custom-toggler.navbar-toggler {
+	border-color: mediumslateblue;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='mediumslateblue' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#currentUserDiv {
+	padding-left: 25px;
+}
+
+.profile-image {
+	width: 10%;
+	border-radius: 50%;
+}
+
+#searchBtn {
+	color: black !important;
+    font-weight: 800;
+}
+
+.loginBtn, .registerBtn, .searchBtn {
+	display: inline;
+}
+
+#mainHeader {
+	padding-left: 200px;
+}
+
+.bg-custom {
+	background-color: #BEBEBE;
+}
+
+#headerAlert {
+	padding-top: 100px;
+}
+
+/*Landing Page*/
+.jumbotron {
+  font-family: Srisakdi;
+  font-weight: bold;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-top: 350px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  opacity: .80;
+}
+
+.lead, .paraText {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.jumbotron, h1 {
+  font-weight: bold;
+  color: black !important;
+}
+
+.jumbotron, h6 {
+  font-weight: bold;
+}
+
+.btn.btn-custom-landing {
+  border-radius: 35px;
+  background: #4d004d;
+  border: #4d004d;
+  color: white;
+  opacity: .75;
+}
+
+.btn.btn-custom-landing:hover {
+  color: cyan;
+  opacity: 1;
+}
+
+/*This will fix the ul to the window, positioning it in the top left corner and filling the entire screen by setting width and height to 100%; we set the z-index to 0 to keep the background images behind the rest of the page's content; list-style is set to none in order to hide the bullet points from the list's default styling; margin and padding are removed entirely*/
+
+.slideshow { 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Notice the animation property at the bottom of this rule, this is how we add an animation to an element; in this case we have an animation named imageAnimation that lasts for 50s (seconds), keeps linear timing (the whole animation runs at the same speed), and loops an infinite number of times*/
+
+.slideshow li { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 50s linear infinite; 
+}
+
+/*Each list item needs a background-image and the last four need an animation-delay (this way they all fire off one after the other in ten second intervals):*/
+
+.slideshow li:nth-child(1) { 
+  background-image: url("https://vignette.wikia.nocookie.net/088c5455-5a75-4a4d-9dce-2bb43c100715/scale-to-width-down/800");
+}
+.slideshow li:nth-child(2) { 
+  background-image: url("https://www.iamag.co/wp-content/uploads/2016/04/black-sails-vfx5.jpg");
+  animation-delay: 10s; 
+}
+.slideshow li:nth-child(3) { 
+  background-image: url("https://1.bp.blogspot.com/-OPgP_-Bdxbg/WkI2D0yX-qI/AAAAAAAA3eU/D-OLKiRYdQwyPAOB_lh8Wj5T2J47vfFagCLcBGAs/s1600/top%2B30%2Bzombie%2Bmovies%2BResidentEvil-Film.jpg");
+  animation-delay: 20s; 
+}
+.slideshow li:nth-child(4) { 
+  background-image: url("https://cdn.vox-cdn.com/thumbor/e_uQDyNnAMZUgYWFkQYNtKhbOKo=/0x0:1501x1000/1200x800/filters:focal(631x380:871x620)/cdn.vox-cdn.com/uploads/chorus_image/image/61750121/hillhouse1.0.jpg");
+  animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+  background-image: url("https://vignette.wikia.nocookie.net/pirates/images/d/d4/AWESaoFengBarbossaandJacklookingPromo.jpg/revision/latest?cb=20130114072627");
+  animation-delay: 40s; 
+}
+
+/*Now we can create the keyframes for the animation:*/
+
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+  }
+  10% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    opacity: 1
+  }
+  30% {
+    opacity: 0
+  }
+}
+
+/* Older browser support - .no-cssanimations class added by modernizr */
+.no-cssanimations .slideshow li {
+	opacity: 1;
+}
+
+/*Index Page*/
+
+#indexContainer {
+	padding-top:25px;
+	padding-bottom: 100px;
+	opacity: .75;
+	font-weight: bold;
+}
+
+.card-deck {
+	max-width: 20rem;
+	padding-top: 25px;
+}
+
+#cardBackground {
+	background-color: tan;
+}
+
+.card-img-top {
+	height: 20rem;
+    width: 100%;
+}
+
+.titleTagIndex {
+	height: 75px;
+	padding-bottom: 100px;
+}
+
+#reviewText {
+	min-height:100px;
+}
+
+.anchorTitle {
+	color: purple;
+}
+
+.list-group-item {
+	background-color: tan !important;
+}
+
+.card-subtitle {
+	color: #212529 !important;
+}
+
+#anchorReadMore.btn {
+	background: #4d004d;
+	border: #4d004d;
+	color: white;
+	opacity: .75;
+}
+
+#anchorReadMore:hover {
+	opacity: 1;
+}
+
+.btn.btn-custom {
+	border-radius: 35px;
+}
+
+.profileImageIndex {
+	width: 10%;
+	border-radius: 50%;
+}
+
+/*Show Page*/
+
+#showContainer {
+	padding-top: 150px;	
+}
+
+#showRow {
+	justify-content: center;
+}
+
+#showImage {
+	max-width: 10%;
+	height: auto;
+}
+
+#showComments {
+	text-align: center;
+	font-weight: 500;
+	padding-top: 15px;
+}
+
+#showCardBackground1 {
+	background-color: tan;
+	opacity: .75;
+	padding-top:50px;
+	padding-bottom: 50px;
+	font-weight: bold;
+}
+
+#showCardBackground2 {
+	background-color: tan;
+	opacity: .75;
+  	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 100px;
+}
+
+#showCommentText {
+	font-weight: 500;
+	text-align: center;
+}
+
+#deleteCommentButton {
+	display: inline;
+	text-align: center;
+}
+
+.titleTagShow {
+	height: 75px;
+	padding-bottom: 100px;
+}
+
+.btn.btn-custom-show {
+	border-radius: 35px;
+	background: #4d004d;
+	border: #4d004d;
+	color: white;
+	opacity: .75;
+}
+
+.btn.btn-custom-show:hover {
+	opacity: 1;
+}
+
+#show {
+	display: inline;
+	text-align: center;
+}
+
+.profileImageMovieShow {
+	width: 2%;
+	border-radius: 50%;
+}
+
+.profileImageCommentShow {
+	width: 2%;
+	border-radius: 50%;
+}
+
+/*Profile Page*/
+
+#profileContainer {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#profileRow {
+	justify-content: center;
+}
+
+#profileImage {
+	max-width: 10%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.titleTagProfile {
+	height: 75px;
+	padding-bottom: 100px;
+}
+
+.profilePage {
+	text-align: center;
+}
+
+.profileReviews {
+	list-style-type: none;
+	padding-top: 20px;
+}
+
+#cardProfile {
+	margin: 0 auto;
+	justify-content: center;
+	background-color: tan;
+	opacity: .75;
+	font-weight: bold;
+	max-width: 50rem;
+	width: 40rem;
+	text-align: center;
+}
+
+/*Edit Profile Page*/
+#editProfileContainer {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#editProfileRow {
+	justify-content: center;
+}
+
+#editCardProfile {
+	margin: 0 auto;
+	justify-content: center;
+	background-color: tan;
+	opacity: .75;
+	font-weight: bold;
+	max-width: 50rem;
+	width: 40rem;
+	text-align: center;
+}
+
+#editCardProfile {
+	margin: 0 auto;
+	justify-content: center;
+	background-color: tan;
+	opacity: .75;
+	font-weight: bold;
+	max-width: 50rem;
+	width: 40rem;
+	text-align: center;
+}
+
+#editProfile {
+	text-align: center;
+	color: purple;
+}
+
+#editParagraphProfile {
+	margin: 8px auto;
+	color: purple;
+}
+
+#editInputProfile {
+	width: 200px;
+}
+
+#editProfileButtonCenter {
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*New Movie*/
+#newContainerMovie {
+	padding-top: 75px;
+}
+
+#newRowMovie {
+	justify-content: center;
+}
+
+#newCardMovie {
+	justify-content: center;
+	background-color: tan;
+	opacity: .75;
+	padding: 0 auto;
+	margin:0 auto;
+	font-weight: bold;
+	max-width: 50rem;
+	width: 40rem;
+}
+
+#newTitleMovie {
+	text-align: center;
+	padding-bottom: 25px;
+	color: purple;
+}
+
+#newParagraphMovie {
+	margin: 8px auto;
+	color: purple;
+}
+
+#newInputMovie {
+	width: 200px;
+}
+
+#newTextAreaMovie {
+	width: 500px;
+	height: 200px;
+	text-align: left;
+}
+
+#newMovieButtonCenter {
+	text-align: center;
+}
+
+/*Edit Movie*/
+#editContainerMovie {
+	padding-top: 100px;
+}
+
+#editRowMovie {
+	justify-content: center;
+}
+
+#editTitleMovie {
+	text-align: center;
+	color: purple;
+}
+
+#editCardMovie {
+	margin: 0 auto;
+	justify-content: center;
+	background-color: tan;
+	opacity: .75;
+	font-weight: bold;
+	max-width: 50rem;
+	width: 40rem;
+	text-align: center;
+}
+
+#editParagraphMovie {
+	margin: 8px auto;
+	color: purple;
+}
+
+#editInputMovie {
+	width: 200px;
+}
+
+#editInputMovieReview {
+	width: 500px;
+}
+
+#editTextAreaReview {
+	width: 500px;
+	height: 200px;
+	text-align: left;
+}
+
+#editMovieButtonCenter {
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*New Comment*/
+#newContainerComment {
+	padding-top: 350px;
+}
+
+#newRowComment {
+	justify-content: center;
+}
+
+#newTitleComment {
+	text-align: center;
+	color: purple;
+}
+
+#newCardComment {
+	justify-content: center;
+	background-color: tan;
+	opacity: .75;
+	padding: 0 auto;
+	margin:0 auto;
+	font-weight: bold;
+	max-width: 50rem;
+	width: 40rem;
+}
+
+#newComment {
+	margin-left: 45px;
+}
+
+#newParagraphComment {
+	margin: 8px auto;
+	color: purple;
+}
+
+#newCommentButtonCenter {
+	text-align: center;
+}
+
+#newTextAreaComment {
+	width: 500px;
+	height: 100px;
+	text-align: left;
+}
+
+#newCommentSubmit {
+	margin-top: 10px;
+}
+
+/*Edit Comments*/
+#editContainerComments {
+	padding-top: 350px;
+}
+
+#editRowComment {
+	justify-content: center;
+}
+
+#editCardComment {
+	justify-content: center;
+	background-color: tan;
+	opacity: .75;
+	padding: 0 auto;
+	margin:0 auto;
+	font-weight: bold;
+	max-width: 50rem;
+	width: 40rem;
+}
+
+#editCommentMain {
+	text-align: center;
+	color: purple;
+}
+
+#editComment {
+	text-align: center;
+}
+
+#editCommentTextArea {
+	width: 500px;
+	height: 100px;
+	text-align: left;
+}
+
+#editCommentButtonCenter {
+	text-align: center;
+}
+
+#editCommentSubmit {
+	margin-top: 10px;
+}
+
+/*FAQ Page*/
+#containerFaq {
+	opacity: 0.75;
+	padding-bottom: 125px;
+}
+
+h1 .faqPage {
+	text-align: center; 
+	font-size: 3em;
+	color: white !important
+}
+
+hr { 
+	border: 0; 
+	height: 3px; 
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.card-header {
+	color: black;
+	background-color: white;
+}
+
+.card-body faq{
+	color: black;
+	background-color: white;
+	padding-left: 25px;
+}
+
+.card-header.collapsed .fa-chevron-down,
+.card-header .fa-chevron-right { 
+	color: black; 
+  	display: none; 
+}
+
+.card-header.collapsed .fa-chevron-right,
+.card-header .fa-chevron-down { 
+	color: black;
+  	display: inline-block; 
+}
+
+i.fa { 
+  	cursor: pointer; 
+  	margin-right: 5px;
+}
+
+/*Register Page*/
+#registerModal {
+	opacity: 0.75;
+}
+
+/*Login Page*/
+#loginModal {
+	opacity: 0.75;
+}
+
+/*Forgot password*/
+#passwordModal {
+	opacity: 0.75;
+}
+
+/*Reset password*/
+#passwordModal {
+	opacity: 0.75;
+}
+
+/*Shared*/
+.btn.btn-custom-edit {
+	border-radius: 35px;
+	background: #4d004d;
+	border: #4d004d;
+	color: white;
+	opacity: .75;
+}
+
+.btn.btn-custom-edit:hover {
+	opacity: 1;
+}
+
+.btn.btn-custom-new {
+	border-radius: 35px;
+	background: #4d004d;
+	border: #4d004d;
+	color: white;
+	opacity: .75;
+}
+
+.btn.btn-custom-new:hover {
+	opacity: 1;
+}
+
+/*Footer*/
+.footer {
+	font-family: Srisakdi; 
+	font-weight: bold;
+	letter-spacing: 3px;
+	position: fixed;
+	color: #00061a;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #888888;
+	}
+
+.footerLink {
+	color: #0000FF;
+}
+
+.footerLink:hover {
+	color: cyan;
+}
+
+
+
+
